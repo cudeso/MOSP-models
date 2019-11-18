@@ -1,0 +1,531 @@
+{
+    "authors": [
+        "Koen Van Impe"
+    ],
+    "label": "Baseline Security Guidelines (BSG)",
+    "language": "NL",
+    "measures": [
+    {
+      "category": "Veiligheidsbeleid", 
+      "code": "4.1.1", 
+      "uuid": "81a49bfb-6b4c-44d8-8747-229ebc0a9115", 
+      "label": "Een informatiebeveiligingsbeleid hebben dat is goedgekeurd en ondersteund wordt door het management."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.1", 
+      "uuid": "0c1aec74-6216-45a0-94a3-5483ed0b6444", 
+      "label": "Een risicomanagementsysteem opzetten."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.2", 
+      "uuid": "59bf4006-ef36-43f9-aef2-c37035128cad", 
+      "label": "De informatiebeveiliging zal worden geïntegreerd in het projectmanagement (veiligheid per ontwerp 'Security by design') om veiligheids-aspecten zo snel mogelijk te integreren."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.3", 
+      "uuid": "13dd88e7-1755-4556-a97a-702d2df01e62", 
+      "label": "Om kennis te actualiseren en de uitwisseling van informatiebeveiligingstrends te bevorderen, zal het noodzakelijk zijn deel te nemen aan gespecialiseerde fora en gebruikersgroepen die zich bezighouden met informatiebeveiliging."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.4", 
+      "uuid": "f5ba73fc-4450-4cbb-baba-352e303f2136", 
+      "label": "Om ervoor te zorgen dat deze organisatorische maatregelen worden uitgevoerd, informeert elke organisatie haar personeel en derden die onder haar verantwoordelijkheid werken."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.5", 
+      "uuid": "099aa548-9a92-4bc1-b73a-7e610d755472", 
+      "label": "Een informatiebeveiliger met een duidelijk mandaat wordt aangewezen en gemandateerd."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.6", 
+      "uuid": "31943510-7424-45e2-8af3-7832b7d1cee9", 
+      "label": "Een dashboard om het beveiligingsniveau te meten en op te volgen aan de hand van de doelstellingen van de strategie van de organisatie."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.7", 
+      "uuid": "2a490b72-5d50-459a-bf61-08828479e076", 
+      "label": "Er zullen een gedragscode en goede praktijken voor het gebruik van informatiesystemen worden ontwikkeld, goedgekeurd en gecommuniceerd."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.8", 
+      "uuid": "30c0e0e1-b670-4513-9fa3-93f18b3ab345", 
+      "label": "Er zal een informatie- en opleidingsplan worden goedgekeurd."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.9", 
+      "uuid": "32c11810-0de4-4141-af57-31f50f3643e3", 
+      "label": "Taken en verantwoordelijkheden van de verschillende actoren in de informatiebeveiliging identificeren."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.10_AVG", 
+      "uuid": "8048b05c-0a0c-46ed-9283-ef807790f286", 
+      "label": "Een risicomanagementsysteem opzetten voor het beheer van persoonsgegevens."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.11_AVG", 
+      "uuid": "b7ee51c3-e305-427f-8214-f5488ddb73e3", 
+      "label": "Opzetten en beheren van het AVG verwerkingsregister."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.12_AVG", 
+      "uuid": "c168c2aa-16b3-4475-8828-d565e2486f8d", 
+      "label": "Een functionaris voor gegevensbescherming (DPO) met een duidelijk mandaat wordt aangewezen en gemandateerd."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.13_AVG", 
+      "uuid": "2686475c-8758-483d-be79-e03ecc69c194", 
+      "label": "Dataprotectie zal worden geïntegreerd in het projectmanagement (gegevensbescherming per ontwerp) om veiligheidsaspecten zo snel mogelijk te integreren."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.14_AVG", 
+      "uuid": "6a70af9b-55d0-4f22-a9f0-92933602f436", 
+      "label": "Om kennis te actualiseren en de uitwisseling van dataprotectietrends te bevorderen, zal het noodzakelijk zijn deel te nemen aan gespecialiseerde fora en informatiekanalen die zich bezighouden met gegevensbescherming."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.15_AVG", 
+      "uuid": "04384bce-d861-438b-bef9-29d06155f54d", 
+      "label": "Om ervoor te zorgen dat de nodige organisatorische maatregelen worden uitgevoerd, informeert elke organisatie haar personeel en derden die onder haar verantwoordelijkheid werken."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.16_AVG", 
+      "uuid": "5c4754c7-5a19-429c-91a3-7801ea8b70e1", 
+      "label": "Een dashboard om het dataprotectieniveau te meten en op te volgen aan de hand van de doelstellingen van de strategie van de organisatie."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.17_AVG", 
+      "uuid": "6ba6edfa-fa35-450f-a389-042380e0dbdd", 
+      "label": "Richtlijnen en goede praktijken voor het gebruik van persoonsgegevens worden ontwikkeld, goedgekeurd en gecommuniceerd."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.18_AVG", 
+      "uuid": "b275984a-98ff-4bf7-b827-d164766bf046", 
+      "label": "Er zal een informatie- en opleidingsplan worden goedgekeurd."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.19_AVG", 
+      "uuid": "12815f93-691d-4ba2-a0ab-ccfe52a8d576", 
+      "label": "Regels voor de toegang tot gegevens via remote toegang (telewerk) worden bepaald."
+    }, 
+    {
+      "category": "Organisatie van beveiliging en data protectie", 
+      "code": "4.2.20_AVG", 
+      "uuid": "397482eb-4050-4d6d-84cb-d46a3b5047af", 
+      "label": "De taken en verantwoordelijkheden van de verschillende actoren in de gegevensbescherming identificeren."
+    }, 
+    {
+      "category": "Veiligheid van personeel", 
+      "code": "4.3.1", 
+      "uuid": "f876a183-af81-4cc7-a638-9a242aff2907", 
+      "label": "Een beleid voor het management van medewerkers (intern en/of extern) zal worden gedefinieerd."
+    }, 
+    {
+      "category": "Veiligheid van personeel", 
+      "code": "4.3.2", 
+      "uuid": "dac32519-a68c-4165-b94f-07c34750e3c6", 
+      "label": "Arbeidsreglement : er moet een beleid gedefineerd worden dat duidelijk de veranwoordelijkheiden van de organisatie, de interne en externe medewerkers vastlegt wat betreft informatiebeveiling en dataprotectie."
+    }, 
+    {
+      "category": "Veiligheid van personeel", 
+      "code": "4.3.3_AVG", 
+      "uuid": "d93def34-8208-4405-aa81-30dcb1e01536", 
+      "label": "Het beleid voor werknemers (intern en extern) bevat een goede legale en/of contractuele bescherming van de persoonsgegevens."
+    }, 
+    {
+      "category": "Veiligheid van personeel", 
+      "code": "4.3.4_AVG", 
+      "uuid": "9fa0d2da-995d-43a9-9e36-390a4eb670a4", 
+      "label": "In de aanwervingsprocedure is er voldoende aandacht gespendeerd aan de bescherming van de persoonsgegevens."
+    }, 
+    {
+      "category": "Veiligheid van personeel", 
+      "code": "4.3.5_AVG", 
+      "uuid": "7cd5b472-2845-4563-9532-800d90c9d379", 
+      "label": "Arbeidsreglement bevat onderdelen voor geheimhoudingsplicht en vertrouwelijkheidsovereenkomst."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.1", 
+      "uuid": "7b9cf51b-23db-4e76-90c8-58b6bc085ec1", 
+      "label": "Er zal een opleidings- en trainingsplan worden gedefinieerd, zodat alle medewerkers van de hele organisatie, zowel intern als extern, de nodige informatiebeveiligingsopleiding krijgen, voor zover relevant voor hun functie, en op geregelde tijdstippen op de hoogte worden gehouden van aanpassingen van de richtlijnen en procedures."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.2", 
+      "uuid": "d3caa2ec-da72-4ddd-80e8-eefa3bf8a487", 
+      "label": "Er zal een communicatieplan worden gedefinieerd, zodat alle belanghebbende partijen van de organisatie, zowel intern als extern, de nodige informatiebeveiligingsinformatie ontvangen, voor zover van toepassing, en op geregelde tijdstippen op de hoogte worden gehouden van aanpassingen van de richtlijnen en procedures."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.3_AVG", 
+      "uuid": "08acbdbf-94e0-406b-a5cc-23d9e1c3d623", 
+      "label": "Vademecum met GDPR terminologie."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.4_AVG", 
+      "uuid": "fe26c4b4-2489-42d0-8cfd-f4f34c51b7ef", 
+      "label": "Er zal een opleidings- en trainingsplan worden gedefinieerd, zodat alle medewerkers van de hele organisatie, zowel intern als extern, op geregelde tijdstippen de nodige opleiding en training krijgen over AVG en dataprotectie, voor zover relevant voor hun functie, en op geregelde tijdstippen op de hoogte worden gehouden van aanpassingen van de richtlijnen en procedures."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.5_AVG", 
+      "uuid": "b2e5e01c-e2d0-4f00-b7ce-2e03183ca93d", 
+      "label": "Er zal een communicatieplan worden gedefinieerd, zodat alle belanghebbende partijen van de organisatie, zowel intern als extern, de nodige dataprotectie-informatie ontvangen, voor zover van toepassing, en op geregelde tijdstippen op de hoogte worden gehouden van aanpassingen van de richtlijnen en procedures."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.6_AVG", 
+      "uuid": "5d69ff7f-a42a-4efb-b9db-66a8623abcbb", 
+      "label": "Een gegevensbeschermingsverklaring die uitlegt welke gegevens verwerkt worden en op welke manier, en hoe ze beveiligd worden."
+    }, 
+    {
+      "category": "Bewustmaking, opleiding, training & communicatie", 
+      "code": "4.4.7_AVG", 
+      "uuid": "f37be6dd-4170-4309-aefd-eed348b4e0e6", 
+      "label": "Een communicatie procedure voor het uitoefenen van de rechten van betrokkene."
+    }, 
+    {
+      "category": "Beheer Activa", 
+      "code": "4.5.1", 
+      "uuid": "dcc264b0-ca6a-4455-beaf-af32a586dc27", 
+      "label": "Een inventaris van kernactiva, ongeacht de categorie ervan (informatie, gegevens, transmissie, toepassing, netwerken, processen, systemen etc.)."
+    }, 
+    {
+      "category": "Beheer Activa", 
+      "code": "4.5.2", 
+      "uuid": "9a749ac1-4cca-4cb8-b4da-67e369512786", 
+      "label": "Er zal een inventaris van informatiesystemen worden bijgehouden."
+    }, 
+    {
+      "category": "Beheer Activa", 
+      "code": "4.5.3", 
+      "uuid": "bbbf99e4-ec62-4483-97ab-2aa976ebeee7", 
+      "label": "Een procedure voor het beheer van informatiemiddelen, waarbij rekening wordt gehouden met het belang van de gegevens van de organisatie."
+    }, 
+    {
+      "category": "Beheer Activa", 
+      "code": "4.5.4", 
+      "uuid": "7791ba79-d8d6-4f1b-86c8-b064a84c4abd", 
+      "label": "De regels en beveiligingsmaatregelen voor het gebruik van verwijderbare media definiëren."
+    }, 
+    {
+      "category": "Beheer Activa", 
+      "code": "4.5.5", 
+      "uuid": "f5976522-5ba7-4525-8394-f68b28cea22c", 
+      "label": "Beveiligingsmaatregelen voor gevoelige gegevens en informatiesystemen."
+    }, 
+    {
+      "category": "Beheer Activa", 
+      "code": "4.5.6_AVG", 
+      "uuid": "377456e5-e683-4f14-8d83-a1140b6768bb", 
+      "label": "De persoonsgegevens zijn voldoende beschermd op basis van de risico analyse."
+    }, 
+    {
+      "category": "Toegangscontrole", 
+      "code": "4.6.1", 
+      "uuid": "b1799296-a0af-445c-a3d7-106432a5f2df", 
+      "label": "Unieke toegang: Duidelijke toegangsregels (beveiligingsmaatregelen, RCA- model) per actief (ruime betekenis) definiëren"
+    }, 
+    {
+      "category": "Toegangscontrole", 
+      "code": "4.6.2", 
+      "uuid": "c495ae3b-b020-4f37-b451-893df8350249", 
+      "label": "Een register van toegangsbevoegdheden bijhouden en bijwerken."
+    }, 
+    {
+      "category": "Toegangscontrole", 
+      "code": "4.6.3", 
+      "uuid": "ba68664c-cd76-4935-b345-20ec7151bbad", 
+      "label": "Gebruikers worden goed opgeleid en geinformeerd over hun taken en verantwoordelijkheden."
+    }, 
+    {
+      "category": "Toegangscontrole", 
+      "code": "4.6.4", 
+      "uuid": "c21d9313-0c6e-4065-9c54-280a3308d0b0", 
+      "label": "Voor elk onderdeel van de inventarisatie (versterkende beveiligingsmaatregelen, rapportage aan een autoriteit) worden de acties gecontroleerd door middel van een logboek, waarvan de toegang beveiligd is en alleen toegankelijk is voor geautoriseerde en geidentificeerde personen."
+    }, 
+    {
+      "category": "Toegangscontrole", 
+      "code": "4.6.5", 
+      "uuid": "227fc9a4-6b46-4fbe-94dd-d327c831af08", 
+      "label": "Toegangscontrole op persoonsgegevens."
+    }, 
+    {
+      "category": "Toegangscontrole", 
+      "code": "4.6.6_AVG", 
+      "uuid": "9b9e31e3-9593-4923-93ec-8f4720754fe1", 
+      "label": "Verificatie identiteit van betrokken persoon bij uitoefenen van rechten."
+    }, 
+    {
+      "category": "Cryptografie", 
+      "code": "4.7.1", 
+      "uuid": "c71bd225-4f48-4250-9992-aa0abe186a86", 
+      "label": "Als er cryptografische maatregelen worden geimplementeerd, zal de organisatie details geven."
+    }, 
+    {
+      "category": "Cryptografie", 
+      "code": "4.7.2", 
+      "uuid": "7642e697-6e0a-4406-8b7f-86d214e38d43", 
+      "label": "In het algemeen, voor toegang tot essentiële activa, moet per persoon een toegangscode worden gebruikt. Het delen van toegangscodes is niet toegestaan."
+    }, 
+    {
+      "category": "Cryptografie", 
+      "code": "4.7.3", 
+      "uuid": "827f4a94-9c5f-4b4b-84dc-6ded671f9921", 
+      "label": "Sleutelbeheer."
+    }, 
+    {
+      "category": "Cryptografie", 
+      "code": "4.7.4_AVG", 
+      "uuid": "2dc077f4-3e78-4f14-9c44-036df86e6f78", 
+      "label": "Persoonsgegevens worden voldoende beschermd tijdens opslag, transport en gebruik van persoonsgegevens."
+    }, 
+    {
+      "category": "Fysieke en milieuveiligheid", 
+      "code": "4.8.1", 
+      "uuid": "ef81df57-be4b-415d-baef-83ad2dacc8e0", 
+      "label": "Beveiligde ruimten."
+    }, 
+    {
+      "category": "Fysieke en milieuveiligheid", 
+      "code": "4.8.2", 
+      "uuid": "f11b09b9-d660-4b9b-8cde-10ab4b5baf45", 
+      "label": "Bescherming van apparaten."
+    }, 
+    {
+      "category": "Fysieke en milieuveiligheid", 
+      "code": "4.8.3", 
+      "uuid": "0d741d71-f9fe-4ab9-aaa9-941b29ecca78", 
+      "label": "Clear screen."
+    }, 
+    {
+      "category": "Fysieke en milieuveiligheid", 
+      "code": "4.8.4", 
+      "uuid": "8a1791ba-a987-485e-a48b-1e88a7789b93", 
+      "label": "Clear desk beleid."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.1", 
+      "uuid": "aafa2f2e-3025-416a-abf6-9d530dba7a2a", 
+      "label": "Voor elke asset is er een login & monitoring met melding van incidenten en getroffen beveiligingsmaatregelen."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.2", 
+      "uuid": "cb31567d-0cf8-4c19-b7e0-841fd27c8d9c", 
+      "label": "Een inventarisatie van de testomgeving."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.1", 
+      "uuid": "5f30ce78-ae78-461f-b298-129c7431392b", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Anti-malware/antivirus moet up-to-date zijn."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.2", 
+      "uuid": "685869ab-0728-4c1a-82ac-f3b0da34251e", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Detectiesysteem voor inbraak of onbevoegde of niet-toegelaten software."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.3", 
+      "uuid": "621a3a62-b90f-4b86-a56d-40f020299ff2", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Procedures voor het blokkeren/isoleren van anomalieën of niet-geautoriseerde toegang."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.4", 
+      "uuid": "1b6889ed-fb66-451c-9cd9-78d802c1416b", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Up-to-date hardware & software met pre-testen van nieuwe releases en fall-back-scenario's."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.5", 
+      "uuid": "249fbdf8-395b-4e35-af58-7d209b1585e7", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Incidentmanagement (inclusief communicatie)."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.6", 
+      "uuid": "92815303-5986-458e-985b-9990ff26e8c1", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Beschikken over back-upprocedures: maken, testen van restauratie."
+    }, 
+    {
+      "category": "Operationele veiligheid", 
+      "code": "4.9.3.7", 
+      "uuid": "81c71d8c-fdc6-412d-9cca-c7d33089c97f", 
+      "label": "De minimale technische maatregelen die voor de architectuur worden genomen, zijn: Beschikken over een procedure met betrekking tot gegevensencryptie."
+    }, 
+    {
+      "category": "Communicatiebeveiliging", 
+      "code": "4.10.1", 
+      "uuid": "7b324ca8-0f09-413b-839e-fea3aa5121af", 
+      "label": "Bij een beveiligingsmaatregel moet rekening worden gehouden met de beveiliging van de informatieoverdracht om ongeoorloofde toegang tot de infrastructuur en gegevens van de organisatie te voorkomen, ongeacht of deze toegang al dan niet vrijwillig is."
+    }, 
+    {
+      "category": "Communicatiebeveiliging", 
+      "code": "4.10.2", 
+      "uuid": "a9e65f83-2877-43ab-9189-bc6c5ca654d8", 
+      "label": "Rekening houden met de toegankelijkheid die nodig is voor de systemen van de organisatie."
+    }, 
+    {
+      "category": "Aankoop, ontwikkeling en onderhoud van informatiesystemen", 
+      "code": "4.11.1", 
+      "uuid": "e3ce304d-a114-4eb7-a9d5-53dbcce5a188", 
+      "label": "Stel voor alle informatiesystemen controles in voor acquisitie, ontwikkeling en onderhoud. Er zal bijzondere aandacht worden besteed aan outsourcing, gebruik van cloud-services of aankoop van producten."
+    }, 
+    {
+      "category": "Aankoop, ontwikkeling en onderhoud van informatiesystemen", 
+      "code": "4.11.2", 
+      "uuid": "27a4961b-a67f-4da7-a5d7-a6d10c529965", 
+      "label": "Logboek bijhouden."
+    }, 
+    {
+      "category": "Aankoop, ontwikkeling en onderhoud van informatiesystemen", 
+      "code": "4.11.3", 
+      "uuid": "2ad9e3dc-4d58-4bd2-98ee-3907ac749571", 
+      "label": "In het logboek worden ook de beveiligingsmaatregelen vermeld waarvoor de nodige maatregelen zijn getroffen."
+    }, 
+    {
+      "category": "Aankoop, ontwikkeling en onderhoud van informatiesystemen", 
+      "code": "4.11.4", 
+      "uuid": "561da413-a109-4108-8e2a-cac5c6edb126", 
+      "label": "Procedures implementeren om oplossingen up-to-date te houden en te zorgen voor een geteste back-up-beveiligingsmaatregel voor zowel systemen als gegevens."
+    }, 
+    {
+      "category": "Aankoop, ontwikkeling en onderhoud van informatiesystemen", 
+      "code": "4.11.5_AVG", 
+      "uuid": "747beed5-104d-4f74-a95c-4fbe708b8f5e", 
+      "label": "Bij aankoop, ontwikkeling en onderhoud van systemen moeten er processen en procedures gebruikt worden die persoonsgegevens beschermen, zowel bij ontwerp als operationeel beheer."
+    }, 
+    {
+      "category": "Betrekkingen met derden (leveranciers, autoriteiten)", 
+      "code": "4.12.1", 
+      "uuid": "3e9d3ded-9f04-44fb-b7fd-9224bdab9ee8", 
+      "label": "De contracten tussen de partijen bevatten beveiligingsmaatregelen, opgelegd door de organisatie door wet- en regelgeving (inclusief het AVG, Cyber Act) en die de elementen van controle en toetsing bevatten."
+    }, 
+    {
+      "category": "Betrekkingen met derden (leveranciers, autoriteiten)", 
+      "code": "4.12.2", 
+      "uuid": "0f14c5b8-8a91-4d6f-9ab2-b6456270e43e", 
+      "label": "Bij gebruik van cloud-computing-diensten worden de nodige beveiligingsmaatregelen ingezet die nodig zijn voor de organisatie."
+    }, 
+    {
+      "category": "Betrekkingen met derden (leveranciers, autoriteiten)", 
+      "code": "4.12.3_AVG", 
+      "uuid": "738ad217-4c42-4d69-82d5-dc550114d51b", 
+      "label": "Erop toezien de relaties met leveranciers en met de autoriteiten te definiëren."
+    }, 
+    {
+      "category": "Gecoördineerd bekendmakingsbeleid van kwetsbaarheden (CVDP)", 
+      "code": "4.13.1", 
+      "uuid": "55efb31d-8362-45f8-9e1b-2a1e5dba575c", 
+      "label": "Een CVDP opstellen en onderhouden."
+    }, 
+    {
+      "category": "Gecoördineerd bekendmakingsbeleid van kwetsbaarheden (CVDP)", 
+      "code": "4.13.2", 
+      "uuid": "e9978bb5-26a5-491e-99d6-9f85c674ed03", 
+      "label": "Zowel voor interne als externe medewerkers en betrokken personen moet er een procedure bestaan die het mogelijk maakt om verdachte activiteiten te rapporteren."
+    }, 
+    {
+      "category": "Gecoördineerd bekendmakingsbeleid van kwetsbaarheden (CVDP)", 
+      "code": "4.13.3_AVG", 
+      "uuid": "a144e735-7e53-4f62-8078-aa9b60675566", 
+      "label": "Kennisgeving aan de toezichthoudende autoriteit van een inbreuk op persoonsgegevens"
+    }, 
+    {
+      "category": "Incident management", 
+      "code": "4.14.1", 
+      "uuid": "781fb42c-a5d0-4b51-8ded-a5c81e61baac", 
+      "label": "Een Incident Management Plan dat de taken en verantwoordelijkheden omvat."
+    }, 
+    {
+      "category": "Incident management", 
+      "code": "4.14.2", 
+      "uuid": "04abda3c-6b69-4b30-819b-3e2106bf9fea", 
+      "label": "Elk incident zal worden geanalyseerd om de relevantie van nieuwe beveiligings- maatregelen te evalueren."
+    }, 
+    {
+      "category": "Incident management", 
+      "code": "4.14.3_AVG", 
+      "uuid": "4333cba2-7c00-4301-9b5b-0d1b3220b28f", 
+      "label": "Een Incident Management Plan dat de taken en verantwoordelijkheden omvat die de behandeling van inbreuken op persoonsgegevens regelt."
+    }, 
+    {
+      "category": "Incident management", 
+      "code": "4.14_4_AVG", 
+      "uuid": "ade66b8c-0eeb-41b9-b4d6-6df1d20aa826", 
+      "label": "Kennisgeving aan de toezichthoudende autoriteit van een inbreuk op persoonsgegevens."
+    }, 
+    {
+      "category": "Informatiebeveiligingsaspecten van bedrijfscontinuïteitsbeheer", 
+      "code": "4.15.1", 
+      "uuid": "bd3de39d-00f7-4e0f-b693-a0b2d24f7fe1", 
+      "label": "Voor kritieke systemen of gevoelige gegevens die nodig zijn voor de continuïteit van de organisatie wordt een continuïteitsplan opgesteld."
+    }, 
+    {
+      "category": "Informatiebeveiligingsaspecten van bedrijfscontinuïteitsbeheer", 
+      "code": "4.15.2", 
+      "uuid": "c6ca06f6-db7b-4721-8de9-091c08db4b94", 
+      "label": "Onderhoud van het continuïteitsplan."
+    }, 
+    {
+      "category": "Informatiebeveiligingsaspecten van bedrijfscontinuïteitsbeheer", 
+      "code": "4.15.3", 
+      "uuid": "59b65555-9e9a-489c-b109-fb5a1df18d21", 
+      "label": "Beschermingssysteem dat de confidentialiteit, integriteit en beschikbaarheid van de bedrijfs- en persoonsgegevens garandeert."
+    }, 
+    {
+      "category": "Naleving en opvolging wet- en regelgeving", 
+      "code": "4.16.1", 
+      "uuid": "972b19e7-f686-40ba-abb6-6fb7b21da61c", 
+      "label": "Naleving van wet- en regelgeving."
+    }, 
+    {
+      "category": "Naleving en opvolging wet- en regelgeving", 
+      "code": "4.16.2", 
+      "uuid": "64a3b31e-789c-4663-b6ab-743e226ab946", 
+      "label": "Elke organisatie zal erop toezien de relaties met leveranciers en met de autoriteiten te definiëren."
+    }, 
+    {
+      "category": "Naleving en opvolging wet- en regelgeving", 
+      "code": "4.16.3_AVG", 
+      "uuid": "d41c4056-4595-4325-84f9-10a284a1a530", 
+      "label": "Opvolging van wetgeving en advies die door de betrokken autoriteiten worden uitgevaardigd of aangepast."
+    }, 
+    {
+      "category": "Evaluatie en controle van de beveiligingsmaatregelen", 
+      "code": "4.17.1", 
+      "uuid": "2a14a2ac-8469-4ee7-a12e-ca6b5aea5562", 
+      "label": "Elke organisatie organiseert op geregelde tijdstippen een evaluatie van de maatregelen."
+    }
+
+    ],
+    "refs": [
+        "https://cyberguide.ccb.belgium.be/nl"
+    ],
+    "uuid": "4c3c3755-1b24-4ba3-8f49-0942af399669",
+    "version": "2.0"
+}
