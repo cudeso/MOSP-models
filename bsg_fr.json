@@ -1,0 +1,555 @@
+{
+    "authors": [
+        "Koen Van Impe"
+    ],
+    "label": "Baseline Security Guidelines (BSG)",
+    "language": "FR",
+    "measures": [
+    {
+      "category": "Politique de sécurité", 
+      "code": "4.1.1", 
+      "uuid": "1cc160ac-8d5c-4ca3-bb72-62a10719c123", 
+      "label": "Chaque organisation doit disposer d'une politique de sécurité approuvée et soutenue par la direction."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.1", 
+      "uuid": "007b3160-1740-45c7-94c6-ca941c0fb139", 
+      "label": "Chaque organisation mettra en place un système de gestion des risques."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.2", 
+      "uuid": "611de8f9-c8a9-41ed-92f0-924f220bc43a", 
+      "label": "La sécurité de l'information sera intégrée dans la gestion des projets (Sécurité dès la conception - 'security by design') afin d'intégrer le plus tôt possible les aspects de sécurité."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.3", 
+      "uuid": "85d026e4-e8f5-42f4-9833-fc5fdfb6b7df", 
+      "label": "Afin de mettre à jour les connaissances et de favoriser les échanges sur les dernières tendances en matière de sécurité de l'information, il sera nécessaire de participer aux forums spécialisés abordant les questions de sécurité de l'information."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.4", 
+      "uuid": "3b96ee40-70c3-452a-849c-4cda88d9f4c0", 
+      "label": "Afin que ces mesures organisationnelles soient appliquées, chaque organisation (in)formera son personnel et les tiers opérant sous sa responsabilité."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.5", 
+      "uuid": "6ea237dc-cb92-4bcd-a688-a5ea7ba3d783", 
+      "label": "Désigner et mandater un responsable de la sécurité."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.6", 
+      "uuid": "12d776b0-2b90-4f2c-a59e-8cb6d173ebdd", 
+      "label": "Un tableau de bord permettant de mesurer son niveau de sécurité par rapport aux objectifs fixés par la stratégie de l'organisation."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.7", 
+      "uuid": "ca1b4896-cb90-4890-b62c-1e1590425ba0", 
+      "label": "Un code de conduite et de bonnes pratiques en matière d'utilisation des systèmes d'information sera élaboré, approuvé et communiqué."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.8", 
+      "uuid": "65a113ed-1a28-4f16-a205-6dcd58684f59", 
+      "label": "Un plan d'information & de formation sera adopté."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.8.1", 
+      "uuid": "20062322-d837-4144-b3e0-fd69e3d63f1b", 
+      "label": "Chaque organisation définira les règles et mesures de sécurité d'usage des supports média amovibles."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.8.2", 
+      "uuid": "89f5c88a-d730-45d2-a4de-77b84f267690", 
+      "label": "Une politique d'accès, de gestion des informations à distance (télétravail) sera adoptée."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.9", 
+      "uuid": "0d9d2a96-7a52-4872-8ba0-f4068082144b", 
+      "label": "Chaque organisation doit identifier les rôles et responsabilités des différents acteurs dans la sécurité de l'information."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.10_AVG", 
+      "uuid": "8a772336-e4ad-4fd7-a093-c4e34779aaf7", 
+      "label": "Chaque organisation mettra en place un système de gestion des risques pour la gestion des données personnelles."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.11_AVG", 
+      "uuid": "be3c2eb6-61c4-4f8b-b27f-d03eb3443b05", 
+      "label": "Configurer et gérer le registre de traitement RGPD."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.12_AVG", 
+      "uuid": "995f60bd-fa47-4ffe-b6ce-9905229bf860", 
+      "label": "Chaque organisation veille à ce qu'un délégué à la protection des données (ci-après désigné DPO) doté d'un mandat clair soit désigné et mandaté."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.13_AVG", 
+      "uuid": "d82fc564-3d0c-43d3-80b0-306c250bfbbb", 
+      "label": "La protection des données sera intégrée à la gestion du projet (protection des données par conception) afin d'intégrer les aspects de sécurité le plus rapidement possible."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.14_AVG", 
+      "uuid": "fcd838d6-ab69-46f8-a7a2-17c84b6bb777", 
+      "label": "Pour mettre à jour les connaissances et promouvoir l'échange des tendances en matière de protection des données, il sera nécessaire de participer à des forums spécialisés et à des canaux d'information traitant de la protection des données."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.15_AVG", 
+      "uuid": "a101acbd-a409-4ef6-ba97-c0c123742f93", 
+      "label": "Pour s'assurer que les mesures organisationnelles nécessaires sont mises en œuvre, chaque organisation informe son personnel et les tiers travaillant sous sa responsabilité."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.16_AVG", 
+      "uuid": "ac29f819-028f-43a9-b64e-36502c01cc0d", 
+      "label": "Chaque organisation dispose d'un tableau de bord pour mesurer et contrôler l'état et maturité de protection des données par rapport aux objectifs de sa stratégie."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.17_AVG", 
+      "uuid": "59e0247f-668a-440f-83cc-eee08b15d875", 
+      "label": "Un code de conduite et de bonnes pratiques pour l'utilisation de données à caractère personnel seront développés, approuvés et communiqués."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.18_AVG", 
+      "uuid": "eb865e05-a869-4ec1-9f93-e7e9d2b8311a", 
+      "label": "Un plan d'information et de formation sera approuvé."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.19_AVG", 
+      "uuid": "5fd7bb7e-9704-4616-b687-947a2b022e8e", 
+      "label": "Les règles d'accès aux données sont déterminées."
+    }, 
+    {
+      "category": "Organisation de la sécurité", 
+      "code": "4.2.20_AVG", 
+      "uuid": "ce01c440-aa4f-432f-b4f0-6e89dd0f5cc6", 
+      "label": "Chaque organisation doit identifier les tâches et les responsabilités des différents acteurs de la protection des données."
+    }, 
+    {
+      "category": "La sécuriteé des ressources humaines", 
+      "code": "4.3.1", 
+      "uuid": "df696f9a-646d-4db1-bebf-ff2066e6ebdf", 
+      "label": "Une politique relative à la gestion des collaborateurs (internes et/ou externes) sera adoptée."
+    }, 
+    {
+      "category": "La sécuriteé des ressources humaines", 
+      "code": "4.3.2", 
+      "uuid": "8a6d3cf4-0a31-4e41-a2ec-cf13c6d04688", 
+      "label": "Réglementation de l'emploi"
+    }, 
+    {
+      "category": "La sécuriteé des ressources humaines", 
+      "code": "4.3.3_AVG", 
+      "uuid": "441aaa8d-5641-4ac2-90d8-bf5bdf121ce8", 
+      "label": "La politique pour les employés (internes et externes) contient une bonne protection juridique et / ou contractuelle des données personnelles."
+    }, 
+    {
+      "category": "La sécuriteé des ressources humaines", 
+      "code": "4.3.4_AVG", 
+      "uuid": "0694ce82-792f-4e7e-ad5d-b75f24cbc822", 
+      "label": "Procédure de recrutement."
+    }, 
+    {
+      "category": "La sécuriteé des ressources humaines", 
+      "code": "4.3.5_AVG", 
+      "uuid": "564b2edb-0c96-42e4-b99c-aa4dbbedfd09", 
+      "label": "Réglementation de l'emploi contient des accords de confidentialité ou de non-divulgation."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.1", 
+      "uuid": "417e07f4-62fe-4503-b34b-6d1c4ecf705c", 
+      "label": "Un plan de formation, de développement et de communication sera défini afin que tous les collaborateurs de l'organisation, internes et externes, suivent, dans la mesure du possible, la formation en matière de sécurité de l'information et soient régulièrement informés sur les adaptations apportées aux directives et procédures."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.2", 
+      "uuid": "b969dd46-b70d-4ec7-a8b5-df763ff556b1", 
+      "label": "Un plan de communication sera défini pour que toutes les parties intéressées de l'organisation, en interne et en externe, reçoivent les informations nécessaires sur la sécurité de l'information, le cas échéant, et soient régulièrement informées des adaptations apportées aux lignes directrices et aux procédures."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.3_AVG", 
+      "uuid": "5299522f-d771-4939-b5f7-61501fb65558", 
+      "label": "Vadémécum avec la terminologie RGPD."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.4_AVG", 
+      "uuid": "7a29e969-f986-4f44-8a5c-d8f354563a88", 
+      "label": "Un plan de formation et d'éducation sera défini de manière aè ce que tous les employés de l'ensemble de l'organisation, qu'ils soient internes ou externes, reçoivent l'instruction et la formation nécessaires aè intervalles réguliers sur la RGPD et la protection des données, dans les mesures applicables aè leurs fonctions/ poste leur rôle et leur responsabilité aè cet égard, et être tenu informé des modifications apportées aux directives et procédures."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.5_AVG", 
+      "uuid": "cdee47f8-8bf0-4de4-a873-b4ecc2974047", 
+      "label": "Un plan de communication sera défini de manière à ce que toutes les parties intéressées de l'organisation, tant internes qu'externes, reçoivent les informations de protection des données nécessaires, le cas échéant, et soient régulièrement informées des modifications apportées aux directives et aux procédures."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.6_AVG", 
+      "uuid": "362c3ed6-18bc-4dfa-923a-55e4d050edb5", 
+      "label": "Préparez une déclaration de protection des données expliquant quelles données sont traitées, comment et les mesures de protections mises en œuvre."
+    }, 
+    {
+      "category": "Sensibilisation, formation, développement & Communication", 
+      "code": "4.4.7_AVG", 
+      "uuid": "7dc57262-e4c2-4da6-ba41-9e094c2dd8db", 
+      "label": "Procédure de communication pour l'exercice des droits de la personne concernée."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.1", 
+      "uuid": "52f3722e-4eda-4d51-859f-ed29ffacbd51", 
+      "label": "Chaque organisation établira un inventaire de ses actifs essentiels, quelle que soit sa catégorie (information, données, transmission, application, réseaux, processus, systèmes, ...)."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.2", 
+      "uuid": "fe16340a-926f-4829-955d-a547c046061c", 
+      "label": "Un inventaire des systèmes d'information sera tenu aè jour."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.3", 
+      "uuid": "88e0be5c-8ba0-4159-a9ca-c2e3f511c1cd", 
+      "label": "Chaque organisation veillera aè mettre en place une procédure de gestion des actifs de l'information en tenant compte de l'importance des données de l'organisation."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.4", 
+      "uuid": "ae470d7b-c065-4f30-b34a-471221f48e0d", 
+      "label": "Chaque organisation définira les règles et mesures de sécurité d'usage des supports média amovibles."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.5", 
+      "uuid": "dee024e0-2f15-42ba-bb19-0e4c4e412505", 
+      "label": "Chaque organisation mettra en place les mesures de sécurité des données sensibles et des systèmes d'information."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.5.1", 
+      "uuid": " 357d56a0-5328-4bdd-a30d-18e70018c50a", 
+      "label": "Chaque organisation mettra en place les mesures de sécurité régissant les moyens de communication électronique."
+    }, 
+    {
+      "category": "La gestion des actifs", 
+      "code": "4.5.6_AVG", 
+      "uuid": "9d210d3d-fc82-49b1-9e38-16125abb72c2", 
+      "label": "Les données personnelles sont suffisamment protégées sur la base de l'évaluation des risques."
+    }, 
+    {
+      "category": "Le contrôle d'accès", 
+      "code": "4.6.1", 
+      "uuid": "362ef0e0-f7e2-4a61-be0d-912286237e0c", 
+      "label": "L'organisation définira par actif (au sens large du terme) les règles claires d'accès."
+    }, 
+    {
+      "category": "Le contrôle d'accès", 
+      "code": "4.6.2", 
+      "uuid": "ca38f20d-15d0-43c6-a5a0-9705e53b97a9", 
+      "label": "Un registre des autorisations d'accès sera tenu et mis à jour par l'organisation."
+    }, 
+    {
+      "category": "Le contrôle d'accès", 
+      "code": "4.6.3", 
+      "uuid": "f88ba193-9859-44e6-b35b-c92eb0daaf02", 
+      "label": "Les utilisateurs seront clairement formés et informés de leurs devoirs & responsabilités."
+    }, 
+    {
+      "category": "Le contrôle d'accès", 
+      "code": "4.6.4", 
+      "uuid": "0e53cc22-6627-4ce8-b9f9-4ba8dbe3d7de", 
+      "label": "Pour chaque élément de l'inventaire (renforcement des mesures de sécurité, rapport à une autorité)."
+    }, 
+    {
+      "category": "Le contrôle d'accès", 
+      "code": "4.6.5", 
+      "uuid": "0b28f89f-00c6-4a7f-8cff-73c1ebbd299d", 
+      "label": "Contrôle d'accès aux données personnelles."
+    }, 
+    {
+      "category": "Le contrôle d'accès", 
+      "code": "4.6.6_AVG", 
+      "uuid": "dea2dbfe-fd32-485c-8a6b-7e7ee0dae5b8", 
+      "label": "Vérification de l'identité de la personne voulant exercer ses droits."
+    }, 
+    {
+      "category": "La cryptographie", 
+      "code": "4.7.1", 
+      "uuid": "7b225b04-3dc2-42c4-a920-f343be6b28c6", 
+      "label": "Si des mesures cryptographiques sont mises en œuvre, l'organisation détaillera ces mesures."
+    }, 
+    {
+      "category": "La cryptographie", 
+      "code": "4.7.2", 
+      "uuid": "36f43595-5efb-4478-9c0c-25f0a866e49e", 
+      "label": "En règle générale, l'accès aux actifs essentiels doit être basé sur des accès individuels. Le partage de codes d'accès n'est pas permis."
+    }, 
+    {
+      "category": "La cryptographie", 
+      "code": "4.7.3", 
+      "uuid": "6366690a-d5c2-4354-989c-596e255d6e50", 
+      "label": "Key management."
+    }, 
+    {
+      "category": "La cryptographie", 
+      "code": "4.7.4_AVG", 
+      "uuid": "4d151f6c-f1f7-45fc-be24-26983be7a9c7", 
+      "label": "Les données personnelles sont suffisamment protégées lors du stockage, du transport et de l'utilisation des données personnelles."
+    }, 
+    {
+      "category": "La sécurité physique et environnementale", 
+      "code": "4.8.1", 
+      "uuid": "9f06714f-30a2-4223-9758-d906e8685808", 
+      "label": "Espaces sécurisés."
+    }, 
+    {
+      "category": "La sécurité physique et environnementale", 
+      "code": "4.8.2", 
+      "uuid": "e851eb18-01d1-4a6c-8325-153228e07c66", 
+      "label": "Protection des appareils."
+    }, 
+    {
+      "category": "La sécurité physique et environnementale", 
+      "code": "4.8.3", 
+      "uuid": "da39891f-0050-4c08-90eb-a66c96122f95", 
+      "label": "Politique 'Clear screen'."
+    }, 
+    {
+      "category": "La sécurité physique et environnementale", 
+      "code": "4.8.4", 
+      "uuid": "7a6c19b2-4929-4dda-b844-ca9bf7f78666", 
+      "label": "Politique 'Clear desk'."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.1", 
+      "uuid": "c600645e-682b-4256-9d69-1b03ef261932", 
+      "label": "Pour chaque élément d'actif login & monitoring avec rapportage des incidents et des mesures de sécurité prises."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.2", 
+      "uuid": "4604aab0-7c9e-45cd-ad38-579be27f08f8", 
+      "label": "Un inventaire de l'environnement de test sera dressé."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.1", 
+      "uuid": "7090e984-01ef-4813-ab37-490b9ef01a0b", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Antimalware/antivirus mis à jour."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.2", 
+      "uuid": "9752d5a2-6f9d-4763-8445-39811f4b283c", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Système de détection des intrusions ou des accès non autorisés/software non autorisés."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.3", 
+      "uuid": "3b3a63ad-486b-4ea6-8b2c-b7ae99f17710", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Procédures de blocage/isolement pour anomalies/accès non autorisé, \u2026"
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.4", 
+      "uuid": "beb2d7a4-ef17-4ad7-9e35-d7bf90a1209b", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Up to date hardware & software avec test préalable des nouvelles releases & fall back scénario."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.5", 
+      "uuid": "86d92098-6655-492c-a2cb-6909a0ca0783", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Gestion des incidents (y compris la communication)."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.6", 
+      "uuid": "c5162eaa-b141-4898-9c5a-09efab5f3e2f", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Avoir des procédures de backup: création, test de restauration."
+    }, 
+    {
+      "category": "La sécurité liée aux opérations", 
+      "code": "4.9.3.7", 
+      "uuid": "bd5a5d3d-bf22-463b-abf5-6357b5667d1b", 
+      "label": "Les mesures techniques mises en place pour l'architecture seront au minimum: Avoir une procédure liée au cryptage des données."
+    }, 
+    {
+      "category": "La sécurité des communications", 
+      "code": "4.10.1", 
+      "uuid": "2087bc31-184b-4b28-a9e0-de6cc6f47115", 
+      "label": "Une mesure de sécurité doit prendre en compte la sécurité des transmissions de l'information afin d'éviter les accès non autorisés aux infrastructures et aux données de l'organisation, que cet accès soit volontaire ou non."
+    }, 
+    {
+      "category": "La sécurité des communications", 
+      "code": "4.10.2", 
+      "uuid": "c2a9d554-e4e1-4b2b-ae3a-bdbb0184bdc1", 
+      "label": "Cette mesure de sécurité devra tenir compte de l'accessibilité requise pour les systèmes de l'organisation."
+    }, 
+    {
+      "category": "Acquisition, développement et maintenance des systèmes d'information", 
+      "code": "4.11.1", 
+      "uuid": "882aec33-b8c1-4ace-a933-adc33ee62281", 
+      "label": "Implémentez des contrôles pour l'acquisition, le développement et la maintenance de tout nouveau système. L'aspect d'outsourcing, l'utilisation de services en nuage ou l'achat de produits nécessitent une attention particulière."
+    }, 
+    {
+      "category": "Acquisition, développement et maintenance des systèmes d'information", 
+      "code": "4.11.2", 
+      "uuid": "8d13a8ef-68cb-4059-955f-18706bc2534a", 
+      "label": "Chaque organisation tiendra un journal."
+    }, 
+    {
+      "category": "Acquisition, développement et maintenance des systèmes d'information", 
+      "code": "4.11.3", 
+      "uuid": "2e6a0a11-0b5f-46e3-ab94-86b8958f502b", 
+      "label": "Le journal spécifiera aussi les mesures de sécurité mises en place."
+    }, 
+    {
+      "category": "Acquisition, développement et maintenance des systèmes d'information", 
+      "code": "4.11.4", 
+      "uuid": "314754df-57aa-46b2-bba1-a742becbb18e", 
+      "label": "L'organisation mettra en œuvre des procédures afin de maintenir ses solutions à jour et assurera une mesure de sécurité de backup testée tant pour ses systèmes que pour ses données."
+    }, 
+    {
+      "category": "Acquisition, développement et maintenance des systèmes d'information", 
+      "code": "4.11.5_AVG", 
+      "uuid": "3a2efe2f-c165-45cd-9a62-d178a8d91694", 
+      "label": "Lors de l'achat, le développement et la maintenance de systèmes, processus et procédures doivent être utilisés pour protéger les données personnelles, à la fois pendant la conception et la gestion opérationnelle."
+    }, 
+    {
+      "category": "Relations avec les fournisseurs", 
+      "code": "4.12.1", 
+      "uuid": "5a0139be-8db3-49d5-b20d-8df2da066684", 
+      "label": "L'organisation s'assurera que les contrats entre parties mentionneront les mesures de sécurité imposées par l'organisation, les lois et règlements (notamment le RGPD) ainsi que les éléments de contrôle et de revue."
+    }, 
+    {
+      "category": "Relations avec les fournisseurs", 
+      "code": "4.12.1.2", 
+      "uuid": "b8722b1c-7644-46be-b9a0-eeaf16b7e26d", 
+      "label": "Chaque organisation veillera à encadrer les relations avec les fournisseurs et les autorités."
+    }, 
+    {
+      "category": "Relations avec les fournisseurs", 
+      "code": "4.12.2", 
+      "uuid": "5b05804b-9d29-4360-8252-218e92193db5", 
+      "label": "Chaque organisation veillera à faire appel aux services de 'cloud computing' qui correspondent aux mesures de sécurité nécessaires pour l'organisation."
+    }, 
+    {
+      "category": "Relations avec les fournisseurs", 
+      "code": "4.12.3_AVG", 
+      "uuid": "827585e6-6044-4918-bd3e-cd6e68d4b872", 
+      "label": "Chaque organisation veillera à ce que les relations avec les fournisseurs et les autorités soient définies."
+    }, 
+    {
+      "category": "Politique Coordonnée pour publication des vulnérabilités de sécurité", 
+      "code": "4.13.1", 
+      "uuid": "06413a61-a94b-4f5b-9682-64a3d01fe18a", 
+      "label": "Une Politique Coordonnée pour publication des vulnérabilités ('Coordinated Vulnerability Disclosure Policy' \u2013 ci-dessous CVDP) L'organisation élabore et applique une CVDP."
+    }, 
+    {
+      "category": "Politique Coordonnée pour publication des vulnérabilités de sécurité", 
+      "code": "4.13.2", 
+      "uuid": "0ddaed31-8775-472a-8027-5311e4d1ceea", 
+      "label": "Les employés internes et externes ainsi que les personnes impliquées doivent disposer d'une procédure permettant de signaler les activités suspectes."
+    }, 
+    {
+      "category": "Politique Coordonnée pour publication des vulnérabilités de sécurité", 
+      "code": "4.13.3_AVG", 
+      "uuid": "b47adcd3-b5e6-47d7-9b30-24b116041e17", 
+      "label": "Notification à l'autorité de contrôle d'une violation de données à caractère personnel."
+    }, 
+    {
+      "category": "Gestion des incidents liés à la sécurité de l'information", 
+      "code": "4.14.1", 
+      "uuid": "866d0e78-cf90-43ba-b80b-fc024d9e353d", 
+      "label": "Chaque organisation mettra en place un plan de gestion des incidents qui reprendra les rôles et responsabilités."
+    }, 
+    {
+      "category": "Gestion des incidents liés à la sécurité de l'information", 
+      "code": "4.14.2", 
+      "uuid": "61353cc1-2e98-4a53-9439-5042b4330617", 
+      "label": "Chaque incident sera analysé afin d'évaluer la pertinence de nouvelles mesures de sécurité."
+    }, 
+    {
+      "category": "Gestion des incidents liés à la sécurité de l'information", 
+      "code": "4.14.3_AVG", 
+      "uuid": "bd868c76-36fc-454b-bb2c-75aff696a176", 
+      "label": "Chaque organisation établit un plan de gestion des incidents comprenant les tâches et responsabilités suivantes, qui régit le traitement des violations de données à caractère personnel."
+    }, 
+    {
+      "category": "Gestion des incidents liés à la sécurité de l'information", 
+      "code": "4.14_4_AVG", 
+      "uuid": "d5fa0e1e-6e73-417d-812d-d479958ca619", 
+      "label": "Notification à l'autorité de contrôle d'une violation de données à caractère personnel."
+    }, 
+    {
+      "category": "Aspects de la sécurité de l'information dans la gestion de la continuité de l'activité", 
+      "code": "4.15.1", 
+      "uuid": "fa2092d3-2e09-45fd-9281-e4c0acafdd77", 
+      "label": "Pour tout système critique ou toute donnée sensible nécessaires à la continuité de l'organisation, un plan de continuité sera mis en place."
+    }, 
+    {
+      "category": "Aspects de la sécurité de l'information dans la gestion de la continuité de l'activité", 
+      "code": "4.15.2", 
+      "uuid": "c6ef4a4d-256f-4031-a0ae-bc3c840649ec", 
+      "label": "Maintenance du plan de continuité."
+    }, 
+    {
+      "category": "Aspects de la sécurité de l'information dans la gestion de la continuité de l'activité", 
+      "code": "4.15.3", 
+      "uuid": "a122fa15-6a0d-461f-b3bb-86bfa1e2a5b9", 
+      "label": "Système de protection garantissant la confidentialité, l'intégrité et la disponibilité des données personnelles et de l'entreprise."
+    }, 
+    {
+      "category": "Encadrer les relations avec les tiers et les autorités", 
+      "code": "4.16.1", 
+      "uuid": "9bd1bf6d-e4a4-4936-a4f0-6cdd7f7a0770", 
+      "label": "Conformité aux dispositions légales et règlementaires."
+    }, 
+    {
+      "category": "Encadrer les relations avec les tiers et les autorités", 
+      "code": "4.16.2", 
+      "uuid": "91f2af81-e57d-4c40-aeea-9c9811f68cbd", 
+      "label": "Chaque organisation veillera à ce que les relations avec les fournisseurs et les autorités soient définies."
+    }, 
+    {
+      "category": "Encadrer les relations avec les tiers et les autorités", 
+      "code": "4.16.3_AVG", 
+      "uuid": "6a129d85-8f6b-4a98-90d7-ac90c2dc0215", 
+      "label": "Suivi de la législation et des avis émis ou modifiés par les autorités compétentes."
+    }, 
+    {
+      "category": "Evaluation des mesures des sécurité", 
+      "code": "4.17.1", 
+      "uuid": "32716663-cd17-42be-a47c-359ffaf6bd52", 
+      "label": "Chaque organisation organisera régulièrement une évaluation interne ou externe sur la sécurité de l'information."
+    }
+
+    ],
+    "refs": [
+        "https://cyberguide.ccb.belgium.be/fr"
+    ],
+    "uuid": " 8c386095-dcbb-44e3-8c02-7fafecd19112",
+    "version": "2.0"
+}
